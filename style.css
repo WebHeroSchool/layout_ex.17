@@ -1,0 +1,69 @@
+.icon {
+	display: none;
+	width: 35px;
+	height: 5px;
+	background-color: black;
+	margin: 6px 0;
+}
+
+.nav{ 
+	font-family:arial;
+}
+
+.nav {
+display: flex;
+justify-content: flex-end;
+background: #008aff;
+}
+
+.nav a {
+color:#fff;
+padding:15px 10px;
+text-decoration:none;
+text-align:center;
+}
+
+.nav a:hover {
+	background:#5c8db7;
+}
+
+@media (max-width: 320px) {
+	.nav{
+		font-size: 10px;
+		display: none;
+	}
+	.icon{
+		display: block;
+	}
+}
+
+
+@media (max-width: 481px) {
+	.nav{
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 641px) {
+	.nav{
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 961px) {
+	.nav{
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 1025px) {
+	.nav{
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 1281px) {
+	.nav{
+		font-size: 32px;
+	}
+}
